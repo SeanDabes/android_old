@@ -20,7 +20,7 @@
            
 <!-- BEGIN ANDKO -->
   <project path="packages/apps/Settings" name="koboldo81/android_packages_apps_Settings" groups="pdk-fs" />
-  <project path="packages/apps/FDroid" name="f-droid/fdroidclient" remote="github" />
+  <project path="packages/apps/FDroid" name="f-droid/fdroidclient" />
 <!-- END ANDKO -->
 
 <!-- BEGIN CYANOGENMOD -->
