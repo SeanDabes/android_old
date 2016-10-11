@@ -12,6 +12,9 @@
   
   <remote name="fdroid"
           fetch="https://github.com/f-droid/fdroidclient" />
+  
+  <remote name="gasflow"
+          fetch="https://github.com/mridang/gasflow" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
@@ -25,8 +28,8 @@
   <project path="packages/apps/Settings" name="koboldo81/android_packages_apps_Settings" groups="pdk-fs" />
   <project path="frameworks/base" name="koboldo81/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
 
-  <!--<project path="packages/apps/GasFlow" name="mridang/gasflow" remote="github" />-->
-  <project path="packages/apps/FDroid" name="android_packages_apps_FDroid" remote="fdroid" />
+  <project path="packages/apps/GasFlow" name="android_packages_apps_GasFlow" remote="gasflow" />
+  <!--<project path="packages/apps/FDroid" name="android_packages_apps_FDroid" remote="fdroid" />-->
 <!-- END ANDKO -->
 
 <!-- BEGIN CYANOGENMOD -->
