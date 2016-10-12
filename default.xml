@@ -11,10 +11,12 @@
            review="review.cyanogenmod.org" />
   
   <remote name="fdroid"
-          fetch="https://github.com/f-droid/fdroidclient" />
+          fetch="https://github.com/f-droid/fdroidclient"
+          revision="master" />
   
   <remote name="gasflow"
-          fetch="https://github.com/mridang" />
+          fetch="https://github.com/mridang"
+          revision="master" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
