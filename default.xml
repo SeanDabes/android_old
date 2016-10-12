@@ -11,7 +11,7 @@
            review="review.cyanogenmod.org" />
   
   <remote name="fdroid"
-          fetch="https://github.com/f-droid/fdroidclient"
+          fetch="https://github.com/f-droid"
           revision="master" />
   
   <remote name="gasflow"
@@ -31,7 +31,7 @@
   <project path="frameworks/base" name="koboldo81/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
 
   <project path="packages/apps/GasFlow" name="gasflow" remote="gasflow" />
-  <project path="packages/apps/FDroid" name="fdroid" remote="fdroid" />
+  <project path="packages/apps/FDroid" name="fdroidclient" remote="fdroid" />
 <!-- END ANDKO -->
 
 <!-- BEGIN CYANOGENMOD -->
