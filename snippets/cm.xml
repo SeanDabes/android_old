@@ -4,7 +4,6 @@
   <!-- Koboldo additions -->
   <project path="android" name="koboldo81/android" />
   <project path="packages/apps/CMParts" name="koboldo81/android_packages_apps_CMParts" />
-  <project path="packages/apps/Viper4Android" name="koboldo81/android_packages_apps_viper4android" />
 
   <!-- CyanogenMod additions -->
   <project path="external/ahbottomnavigation" name="CyanogenMod/android_external_ahbottomnavigation" />
