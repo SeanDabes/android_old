@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- CyanogenMod additions -->
+  <!-- Koboldo additions -->
   <project path="android" name="koboldo81/android" />
+  <project path="packages/apps/CMParts" name="koboldo81/android_packages_apps_CMParts" />
+  <project path="packages/apps/Viper4Android" name="koboldo81/android_packages_apps_viper4android" />
+
+  <!-- CyanogenMod additions -->
   <project path="external/ahbottomnavigation" name="CyanogenMod/android_external_ahbottomnavigation" />
   <project path="external/android-visualizer" name="CyanogenMod/android_external_android-visualizer" />
   <project path="external/bash" name="CyanogenMod/android_external_bash" />
@@ -41,7 +45,6 @@
   <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" />
   <project path="packages/apps/CMBugReport" name="CyanogenMod/android_packages_apps_CMBugreport" />
   <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" />
-  <project path="packages/apps/CMParts" name="koboldo81/android_packages_apps_CMParts" />
   <project path="packages/apps/CMUpdater" name="CyanogenMod/android_packages_apps_CMUpdater" />
   <project path="packages/apps/CMWallpapers" name="CyanogenMod/android_packages_apps_CMWallpapers" />
   <project path="packages/apps/Eleven" name="CyanogenMod/android_packages_apps_Eleven" />
