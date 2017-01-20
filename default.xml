@@ -8,6 +8,14 @@
   <remote name="kbdmods"
           fetch="https://github.com/koboldo81"
 	  revision="master" />
+	
+  <remote name="superuser"
+          fetch="https://github.com/phhusson/Superuser"
+	  revision="master" />
+
+  <remote name="superuserwidgets"
+          fetch="https://github.com/phhusson/Widgets"
+	  revision="master" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
@@ -31,6 +39,9 @@
 
   <project path="packages/apps/KBDapps" name="android_packages_apps_KBDapps" remote="kbdmods" />
   <project path="packages/apps/Viper4Android" name="android_packages_apps_viper4android" remote="kbdmods" />
+  <project path="packages/apps/Superuser" name="Superuser" remote="superuser" />
+  <project path="packages/apps/Superuser/Widgets" name="Widgets" remote="superuser" />
+
 <!-- END ANDKO -->
 
   <!-- AOSP Projects -->
