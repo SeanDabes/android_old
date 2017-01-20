@@ -10,11 +10,7 @@
 	  revision="master" />
 	
   <remote name="superuser"
-          fetch="https://github.com/phhusson/Superuser"
-	  revision="master" />
-
-  <remote name="superuserwidgets"
-          fetch="https://github.com/phhusson/Widgets"
+          fetch="https://github.com/phhusson"
 	  revision="master" />
 
   <remote  name="private"
