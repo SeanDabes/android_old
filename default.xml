@@ -9,6 +9,10 @@
           fetch="https://github.com/koboldo81"
 	  revision="master" />
 	
+  <remote name="busybox"
+	  fetch="https://github.com/PureNexusProject"
+	  revision="android-7.1" />
+	
   <remote name="superuser"
           fetch="https://github.com/phhusson"
 	  revision="master" />
@@ -37,6 +41,7 @@
   <project path="packages/apps/Viper4Android" name="android_packages_apps_viper4android" remote="kbdmods" />
   <project path="packages/apps/Superuser" name="Superuser" remote="superuser" />
   <project path="packages/apps/Superuser/Widgets" name="Widgets" remote="superuser" />
+  <project path="external/busybox" name="android_external_busybox" remote="busybox" />
 
 <!-- END ANDKO -->
 
