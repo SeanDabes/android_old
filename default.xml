@@ -4,10 +4,6 @@
   <remote  name="github"
            fetch=".."
            review="review.lineageos.org" />
-
-  <remote name="busybox"
-	  fetch="https://github.com/PureNexusProject"
-	  revision="android-7.1" />
 	
   <remote name="superuser"
           fetch="https://github.com/phhusson"
@@ -39,7 +35,6 @@
 
   <project path="packages/apps/Superuser" name="Superuser" remote="superuser_mod" />
   <project path="packages/apps/Superuser/Widgets" name="Widgets" remote="superuser" />
-  <project path="external/busybox" name="android_external_busybox" remote="busybox" />
 
 <!-- END ANDKO -->
 
