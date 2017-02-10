@@ -4,14 +4,6 @@
   <remote  name="github"
            fetch=".."
            review="review.lineageos.org" />
-	
-  <remote name="superuser"
-          fetch="https://github.com/phhusson"
-	  revision="master" />
-
-  <remote name="superuser_mod"
-          fetch="https://github.com/Thrilleratplay"
-	  revision="master" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
@@ -32,9 +24,6 @@
   </project>
   <project path="packages/apps/Settings" name="koboldo81/android_packages_apps_Settings" groups="pdk-fs" />
   <project path="frameworks/base" name="koboldo81/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
-
-  <project path="packages/apps/Superuser" name="Superuser" remote="superuser_mod" />
-  <project path="packages/apps/Superuser/Widgets" name="Widgets" remote="superuser" />
 
 <!-- END ANDKO -->
 
