@@ -19,9 +19,6 @@
            sync-j="4" />
 
 <!-- BEGIN ANDKO -->
-  <project path="build" name="koboldo81/android_build" groups="pdk" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
   <project path="packages/apps/Settings" name="koboldo81/android_packages_apps_Settings" groups="pdk-fs" />
   <project path="frameworks/base" name="koboldo81/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
 
@@ -29,9 +26,9 @@
 
   <!-- AOSP Projects -->
 
-<!--  <project path="build" name="LineageOS/android_build" groups="pdk,tradefed">
+<project path="build" name="LineageOS/android_build" groups="pdk,tradefed">
     <copyfile src="core/root.mk" dest="Makefile" />
-  </project>-->
+  </project>
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
   <project path="build/kati" name="LineageOS/android_build_kati" groups="pdk,tradefed" />
   <project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" remote="aosp" >
