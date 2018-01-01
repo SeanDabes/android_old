@@ -1,50 +1,31 @@
-CyanogenMod
-===========
+LineageOS by Koboldo
+====================
 
-Submitting Patches
-------------------
-Patches are always welcome!  Please submit your patches via CyanogenMod Gerrit!
-You can do this by using these commands:
-
-    (From root android directory)
-    . build/envsetup.sh
-    (Go to repo you are patching, make your changes and commit)
-    cmgerrit <for(new)/changes(patch set)> <branch/change-id> 
-
-    repo start cm-13.0 .
-    (Make your changes and commit)
-    repo upload .
-Note: "." meaning current directory
-For more help on using this tool, use this command: repo help upload
-
-Make your changes and commit with a detailed message, starting with what you are working with (i.e. vision: Update Kernel)
-Commit your patches in a single commit. Squash multiple commit using this command: git rebase -i HEAD~<# of commits>
-
-To view the status of your and others' patches, visit [CyanogenMod Code Review](http://review.cyanogenmod.org/)
+This is an Android ROM based on LineageOS with a few add-ons from other ROMs those are:
+1. StatusBar Network Traffic:
+    * https://github.com/koboldo81/android_frameworks_base/commit/3153d9e65e0250d656d0323b8aa27ba8c6b6604e
+    * https://github.com/koboldo81/android_frameworks_base/commit/1525ffcbc3f72412cae75180449e819118e39cf0
+    * https://github.com/koboldo81/android_packages_apps_CMParts/commit/8634398f1ab144a1415aa06da8eeb5b5a3398a15
+2. Battery Info in Lockscreen while charging:
+    * https://github.com/koboldo81/android_frameworks_base/commit/d92cc4aab55ca3a35855993d530b1109dc429506
+    * https://github.com/koboldo81/android_system_core/commit/a9be8e8c77c1ec303a7a1aeeeb5e12fb7132065b
 
 
 Getting Started
 ---------------
 
-To get started with Android/CyanogenMod, you'll need to get
+To get started with Android/LineageOS, you'll need to get
 familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
 To initialize your local repository using the CyanogenMod trees, use a command like this:
 
-    repo init -u git://github.com/CyanogenMod/android.git -b cm-13.0
+    repo init -u git://github.com/koboldo81/android.git -b cm-14.0
 
 Then to sync up:
 
     repo sync
 
-Please see the [CyanogenMod Wiki](http://wiki.cyanogenmod.org/) for building instructions.
+Please see the [LineageOS Wiki](https://wiki.lineageos.org/) for building instructions.
 
-For more information on this Github Organization and how it is structured, 
-please [read the wiki article](http://wiki.cyanogenmod.org/w/Github_Organization)
-
-Buildbot
---------
-
-All supported devices are built nightly and periodically as changes are committed to ensure the source trees remain buildable.
-
-You can view the current build statuses at [CyanogenMod Jenkins](http://jenkins.cyanogenmod.org/)
+Getting Started
+---------------
