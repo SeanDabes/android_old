@@ -10,6 +10,14 @@ This is an Android ROM based on LineageOS with a few add-ons from other ROMs tho
     * https://github.com/koboldo81/android_frameworks_base/commit/d92cc4aab55ca3a35855993d530b1109dc429506
     * https://github.com/koboldo81/android_system_core/commit/a9be8e8c77c1ec303a7a1aeeeb5e12fb7132065b
 
+To-Do list:
+* Add Magisk
+* Change launcher to [Lawnchair](http://www.lawnchair.info)
+* Change camera to OpenCamera
+* Add Forecastie
+* Add OMS - Substratum or Bucket (OSS alternative)
+
+
 
 Getting Started
 ---------------
