@@ -21,14 +21,13 @@
 <!-- BEGIN ANDKO -->
   <project path="frameworks/base" name="koboldo81/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
   <project path="system/core" name="koboldo81/android_system_core" groups="pdk" />
-
+  <project path="build" name="koboldo81/android_build" groups="pdk">
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
 <!-- END ANDKO -->
 
   <!-- AOSP Projects -->
 
-  <project path="build" name="LineageOS/android_build" groups="pdk">
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
   <project path="build/kati" name="LineageOS/android_build_kati" groups="pdk,tradefed" />
   <project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" remote="aosp" >
