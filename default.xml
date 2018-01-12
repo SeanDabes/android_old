@@ -24,7 +24,6 @@
   <project path="build" name="koboldo81/android_build" groups="pdk">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="." name="koboldo81/AndKBD" remote="github" revision="master" />
 <!-- END ANDKO -->
 
   <!-- AOSP Projects -->
