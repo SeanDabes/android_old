@@ -1,28 +1,22 @@
-LineageOS
-===========
+LineageOS by Koboldo
+====================
 
-Submitting Patches
-------------------
+This is an Android ROM based on LineageOS with a few add-ons from other ROMs those are:
+1. StatusBar Network Traffic:
+    * https://github.com/koboldo81/android_frameworks_base/commit/3153d9e65e0250d656d0323b8aa27ba8c6b6604e
+    * https://github.com/koboldo81/android_frameworks_base/commit/1525ffcbc3f72412cae75180449e819118e39cf0
+    * https://github.com/koboldo81/android_packages_apps_CMParts/commit/8634398f1ab144a1415aa06da8eeb5b5a3398a15
+2. Battery Info in Lockscreen while charging:
+    * https://github.com/koboldo81/android_frameworks_base/commit/d92cc4aab55ca3a35855993d530b1109dc429506
+    * https://github.com/koboldo81/android_system_core/commit/a9be8e8c77c1ec303a7a1aeeeb5e12fb7132065b
+3. Magisk:
+   * https://github.com/koboldo81/android_vendor_koboldo/commit/da3e3c3427413a0964da9c56df6ba40cc70edbdf
+   * https://github.com/koboldo81/android_build/commit/c914a556379c7885751e28aa45d44b32b98807e9
 
-Patches are always welcome!  Please submit your patches via LineageOS Gerrit.
-You can do this by using these commands:
-
-    (From root android directory)
-    . build/envsetup.sh
-    (Go to repo you are patching, make your changes and commit)
-    lineagegerrit <for(new)/changes(patch set)> <branch/change-id>
-
-    repo start lineage-15.1 .
-    (Make your changes and commit)
-    repo upload .
-
-Note: "." means the current directory
-For more help on using this tool, use this command: `repo help upload`
-
-Make your changes and commit with a detailed message, starting with what you are working with (i.e. "vision: Update Kernel")
-Commit your patches in a single commit. Squash multiple commits using this command: `git rebase -i HEAD~<# of commits>`
-
-To view the status of your and others' patches, visit [LineageOS Code Review](https://review.lineageos.org/)
+To-Do list:
+* Change launcher to [Lawnchair](http://www.lawnchair.info)
+* Change camera to OpenCamera
+* Add Forecastie
 
 
 Getting Started
@@ -31,22 +25,12 @@ Getting Started
 To get started with Android/LineageOS, you'll need to get
 familiar with [Git and Repo](https://source.android.com/source/using-repo.html).
 
-To initialize your local repository using the LineageOS trees, use a command like this:
+To initialize your local repository using the LineageOS by Koboldo trees, use a command like this:
 
-    repo init -u git://github.com/LineageOS/android.git -b lineage-15.1
+    repo init -u git://github.com/koboldo81/android.git -b lineage-15.1
 
 Then to sync up:
 
     repo sync
 
 Please see the [LineageOS Wiki](https://wiki.lineageos.org/) for building instructions.
-
-
-Buildbot
---------
-
-All supported devices are built weekly and periodically as changes are committed to ensure the source trees remain buildable.
-
-You can view the current build statuses at [LineageOS Jenkins](https://jenkins.lineageos.org/)
-
-Builds produced weekly by the buildbot can be downloaded from [LineageOS downloads](https://download.lineageos.org/)
