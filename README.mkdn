@@ -2,14 +2,10 @@ LineageOS by Koboldo
 ====================
 
 This is an Android ROM based on LineageOS with a few add-ons from other ROMs those are:
-1. StatusBar Network Traffic:
-    * https://github.com/koboldo81/android_frameworks_base/commit/3153d9e65e0250d656d0323b8aa27ba8c6b6604e
-    * https://github.com/koboldo81/android_frameworks_base/commit/1525ffcbc3f72412cae75180449e819118e39cf0
-    * https://github.com/koboldo81/android_packages_apps_CMParts/commit/8634398f1ab144a1415aa06da8eeb5b5a3398a15
-2. Battery Info in Lockscreen while charging:
+1. Battery Info in Lockscreen while charging:
     * https://github.com/koboldo81/android_frameworks_base/commit/d92cc4aab55ca3a35855993d530b1109dc429506
     * https://github.com/koboldo81/android_system_core/commit/a9be8e8c77c1ec303a7a1aeeeb5e12fb7132065b
-3. Magisk:
+2. Magisk:
    * https://github.com/koboldo81/android_vendor_koboldo/commit/da3e3c3427413a0964da9c56df6ba40cc70edbdf
    * https://github.com/koboldo81/android_build/commit/c914a556379c7885751e28aa45d44b32b98807e9
 
