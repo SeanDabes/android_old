@@ -3,8 +3,8 @@ LineageOS by Koboldo
 
 This is an Android ROM based on LineageOS with a few add-ons from other ROMs those are:
 1. Battery Info in Lockscreen while charging:
-    * https://github.com/koboldo81/android_frameworks_base/commit/d92cc4aab55ca3a35855993d530b1109dc429506
-    * https://github.com/koboldo81/android_system_core/commit/a9be8e8c77c1ec303a7a1aeeeb5e12fb7132065b
+    * https://github.com/koboldo81/android_frameworks_base/commit/f581eae33f192a88183a5a7608108750b82a6afd
+    * https://github.com/koboldo81/android_system_core/commit/bd2ff191912543bd1238710291a6a2a6bb28cd6c
 2. Magisk:
    * https://github.com/koboldo81/android_vendor_koboldo/commit/da3e3c3427413a0964da9c56df6ba40cc70edbdf
    * https://github.com/koboldo81/android_build/commit/c914a556379c7885751e28aa45d44b32b98807e9
