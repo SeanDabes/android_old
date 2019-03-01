@@ -11,7 +11,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
-           revision="refs/tags/android-9.0.0_r30" />
+           revision="refs/tags/android-9.0.0_r31" />
 
   <default revision="refs/heads/lineage-16.0"
            remote="github"
@@ -95,7 +95,7 @@
   <project path="external/cblas" name="platform/external/cblas" groups="pdk" remote="aosp" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" groups="pdk" remote="aosp" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" remote="aosp" />
-  <project path="external/chromium-webview" name="platform/external/chromium-webview" groups="pdk" clone-depth="1" remote="aosp" />
+  <project path="external/chromium-webview" name="LineageOS/android_external_chromium-webview" groups="pdk" clone-depth="1" />
   <project path="external/clang" name="platform/external/clang" groups="pdk" remote="aosp" />
   <project path="external/cmockery" name="platform/external/cmockery" groups="pdk" remote="aosp" />
   <project path="external/cn-cbor" name="platform/external/cn-cbor" groups="pdk" remote="aosp" />
@@ -136,7 +136,7 @@
   <project path="external/flatbuffers" name="platform/external/flatbuffers" groups="pdk" remote="aosp" />
   <project path="external/fonttools" name="platform/external/fonttools" groups="pdk" remote="aosp" />
   <project path="external/freetype" name="platform/external/freetype" groups="pdk" remote="aosp" />
-  <project path="external/fsck_msdos" name="platform/external/fsck_msdos" groups="pdk" remote="aosp" />
+  <project path="external/fsck_msdos" name="LineageOS/android_external_fsck_msdos" groups="pdk" />
   <project path="external/gemmlowp" name="platform/external/gemmlowp" groups="pdk" remote="aosp" />
   <project path="external/gflags" name="platform/external/gflags" groups="pdk" remote="aosp" />
   <project path="external/giflib" name="platform/external/giflib" groups="pdk,qcom_msm8x26" remote="aosp" />
