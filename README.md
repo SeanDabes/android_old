@@ -6,9 +6,9 @@ This is an Android ROM based on LineageOS with a few add-ons from other ROMs tho
     * https://github.com/koboldo81/android_frameworks_base/commit/7f144dc02c2780214a95d6d383b9f2fc31e26eb4
     * https://github.com/koboldo81/android_system_core/commit/3cd36816852e7f28bbbd68e9e93ee47403a3e743
 2. Magisk:
-   * https://github.com/koboldo81/android_vendor_koboldo/commit/1aba3bf9e0797c0110232aa3c8d01cd93ebb35d8
-   * https://github.com/koboldo81/android_build/commit/8ad2cda0ffdbe4250e0421f8fb8410410380363f
-
+   * https://github.com/koboldo81/android_vendor_koboldo/commit/f20629e085467187f1a7ffdc5649953771496cc1
+   * https://github.com/koboldo81/android_build/commit/e68a88f4396daf4585ca56e3f6eca2ba03bd4a07
+   
 To-Do list:
 * Change launcher to [Lawnchair](http://www.lawnchair.info)
 * Change camera to OpenCamera
