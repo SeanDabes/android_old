@@ -6,8 +6,9 @@ This is an Android ROM based on LineageOS with a few add-ons from other ROMs tho
 2. Magisk ([1](https://github.com/koboldo81/android_vendor_koboldo/commit/f20629e085467187f1a7ffdc5649953771496cc1)) ([2](https://github.com/koboldo81/android_build/commit/e68a88f4396daf4585ca56e3f6eca2ba03bd4a07)) ([3](https://github.com/koboldo81/android_vendor_koboldo/commit/34eeed233cd612d1297fa067864b2d404e4461f2))
    
 To-Do list:
-* Change launcher to [Lawnchair](http://www.lawnchair.info)
-* Change camera to OpenCamera
+* Change launcher to [Lawnchair](https://github.com/LawnchairLauncher/Lawnchair)
+* Change calendar to [Etar](https://github.com/Etar-Group/Etar-Calendar)
+* Change gallery to [Simple Gallery Pro](https://github.com/SimpleMobileTools/Simple-Gallery)
 * Add Forecastie
 
 
